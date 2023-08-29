@@ -1,0 +1,61 @@
+/* common shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;   /*For all fonts*/
+}
+body{
+    margin: 0;
+}
+.btn-primary{     /*For all buttons*/  
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px;
+}
+/* Header */
+.header{
+    background-color: antiquewhite;
+}
+
+/* primary text color */
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 1000;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+}
+/*Banner*/
+.banner{
+    font-size: 10px;
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-image{
+    height: 350px;
+    width: 550px;
+}

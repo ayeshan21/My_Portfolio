@@ -106,16 +106,28 @@ nav a {
 }
 
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 
 /* About me section styles */
 .about{
-    text-align: center;
     background-color: #FFF8F3;
-    margin: 100px 450px 100px 450px;
-    padding: 110px;
+    margin-top: 100px;
+    padding: 100px;
 }
 .section-title{
     color: #181818;
     font-size: 25px;
     font-weight: 900;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-info{
+    color: #757575;
 }

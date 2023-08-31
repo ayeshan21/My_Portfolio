@@ -82,14 +82,13 @@ nav a {
 
 .banner-image {
     height: 500px;
-    width: 750px;
+    width: 950px;
     margin-bottom: 0;
     margin-left: 500px;
-
 }
 
 .banner-content {
-    max-width: 800px;
+     max-width: 900px;
 }
 
 .banner-greet {
@@ -142,8 +141,8 @@ main section{
 }
 
 /* What i do section styles */
-.what-i-do {
-    padding: 10px;
+.what-i-do-section {
+    padding: 50px;
 }
 
 .skill-info-container {
@@ -156,4 +155,24 @@ main section{
     background-color: #FFF;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;   /* y-axis, x-axis and spreading value*/
+}
+
+/* A summary of my resume section styles */
+.resume-summary-section{
+   padding: 50px;
+}
+.summary-section-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#resume-second-div{
+    border-top: 1px solid #757575;
+    border-bottom: 1px solid #757575;
+}
+#institution-name{
+    color: gray;
+}
+#resume-btn{
+ margin-left: 450px;
 }

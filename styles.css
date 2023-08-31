@@ -1,11 +1,23 @@
 /* common shared styles */
-*{
-    font-family: 'Open Sans', sans-serif;   /*For all fonts*/
+* {
+    font-family: 'Open Sans', sans-serif;
+    /*For all fonts*/
 }
-body{
+
+body {
     margin: 0;
 }
-.btn-primary{     /*For all buttons*/  
+
+/*for all descriptions part*/
+.description {
+    color: #757575;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+  /*For all buttons*/
+.btn-primary {
     border: 0;
     border-radius: 10px;
     background-color: #FD6E0A;
@@ -17,77 +29,93 @@ body{
 }
 
 /* Header */
-.header{
-    background-color: antiquewhite;
-    background-image: url('images/header_bg.png'), url('images/developer.png'); /*multiple background*/
+.header {
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    /*multiple background*/
     background-repeat: no-repeat;
-    background-position: bottom right, left;  /*position of both bg*/
-    background-size: 800px 400px, 100px 600px;   /*width and height for both bg*/
+    background-position: bottom right, left;
+    /*position of both bg*/
+    background-size: 800px 400px, 100px 600px;
+    /*width and height for both bg*/
 }
 
 /* primary text color */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 40px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: blue;
 }
 
 /*Banner*/
-.banner{
+.banner {
     padding: 0px 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
-.banner-image{
+
+.banner-image {
     height: 500px;
     width: 750px;
     margin-bottom: 0;
     margin-left: 500px;
-    
+
 }
-.banner-content{
+
+.banner-content {
     max-width: 800px;
 }
-.banner-greet{
+
+.banner-greet {
     font-size: 30px;
     font-weight: 500;
     color: #474747;
     margin-bottom: 10px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
-/* for all paragraph tags*/
-.all-paragraph{
-    font-weight: 100;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
 /* Main section styles */
+
 /* About me section styles */
+.about{
+    text-align: center;
+    background-color: #FFF8F3;
+    margin: 100px 450px 100px 450px;
+    padding: 110px;
+}
+.section-title{
+    color: #181818;
+    font-size: 25px;
+    font-weight: 900;
+}

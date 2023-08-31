@@ -16,7 +16,7 @@ body {
     margin-bottom: 30px;
 }
 
-  /*For all buttons*/
+/*For all buttons*/
 .btn-primary {
     border: 0;
     border-radius: 10px;
@@ -106,36 +106,54 @@ nav a {
 }
 
 /* Main section styles */
-main{
+main {
     max-width: 1140px;
-    margin: auto;
+    margin: auto;    /* margin will be provide from left anf right side*/
+}
+main section{
+    margin-top: 100px;
 }
 
 /* About me section styles */
-.about{
+.about {
     background-color: #FFF8F3;
-    margin-top: 100px;
+     
     padding: 100px;
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 25px;
     font-weight: 900;
     text-align: center;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#about-description{
+
+#about-description {
     color: #757575;
 }
 
 /* What i do section styles */
-.what-i-do{
-    margin-top: 100px;
-    padding: 50px;
+.what-i-do {
+    padding: 10px;
+}
+
+.skill-info-container {
+    display: flex;
+    gap: 24px;    /* using for giving gap among the contents*/
+}
+
+#skill-info {
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;   /* y-axis, x-axis and spreading value*/
 }
